@@ -1,0 +1,32 @@
+body{
+	margin:0;
+	padding:0;
+}
+.viewport{
+	overflow:hidden;
+	width:730px;
+}
+.wrap{
+	width:4380px;
+	height:336px;
+	animation:carousel ease-in-out 10s infinite 0s normal;
+}
+.wrap img{
+	width:730px;
+	height:336px;
+	float:left;
+	display:inline-block;
+	
+}
+@keyframes carousel{
+	0%{
+		margin-left:0;
+	}
+	50%{
+		margin-left:-730px;
+	}
+	100%{
+		margin-left:-1460px;
+	}
+}
+
